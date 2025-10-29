@@ -1,0 +1,19 @@
+Inicio
+    Escribir "Introduce un número:"
+    Leer n
+
+    Si n no es un número Entonces
+        Escribir "Error: el valor introducido no es un número"
+        Fin
+    FinSi
+
+    Si n >= 5 Y n <= 50 Entonces
+        Para i <- n Hasta 1 Con Paso -1 Hacer
+            Escribir i, "..."
+            Esperar 0.5 segundos
+        FinPara
+    Sino
+        Escribir "El número tiene que estar entre 5 y 50"
+        Fin
+    FinSi
+Fin
